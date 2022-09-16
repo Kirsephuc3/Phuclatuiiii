@@ -108,3 +108,27 @@ function changeColor(){
         count = 0;
     }
 }
+function changeColor1(){
+    var property = document.getElementById("like");
+    if(count == 0)
+    {
+        property.style.color= "#777777";
+        count =1;
+    }
+    else {
+        property.style.color = "#1877f2";
+        count = 0;
+    }
+}
+function changeColor2(){
+    var property = document.getElementById("laugh");
+    if(count == 0)
+    {
+        property.style.color= "#777777";
+        count =1;
+    }
+    else {
+        property.style.color = " #ffe680";
+        count = 0;
+    }
+}

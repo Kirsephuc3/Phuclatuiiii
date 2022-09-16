@@ -407,12 +407,15 @@ html {
 }
 .card__footer .footer__item:nth-child(1):hover span {
     color: red;
+    font-size: 2.5rem;
 }
 .card__footer .footer__item:nth-child(3):hover span {
-    color: var(--blue-color);
+    color:  #ffe680;
+    font-size: 2.5rem;
 }
 .card__footer .footer__item:nth-child(2):hover span {
-    color: #b3d9ff;
+    color: var(--blue-color);
+    font-size: 2.5rem;
 }
 
 .footer__item span .fa, 
